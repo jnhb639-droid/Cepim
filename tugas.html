@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Makalah Kebersihan Lingkungan</title>
+<style>
+    @page {
+        size: A4;
+        margin: 2.5cm;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background: #edf1f4;
+        color: #222;
+        font-family: "Times New Roman", serif;
+        line-height: 1.7;
+    }
+
+    .toolbar {
+        position: sticky;
+        top: 0;
+        padding: 12px;
+        background: #17435b;
+        text-align: center;
+    }
+
+    button {
+        margin: 3px;
+        padding: 10px 16px;
+        border: 0;
+        border-radius: 6px;
+        background: #fff;
+        color: #17435b;
+        font-weight: bold;
+    }
+
+    .paper {
+        max-width: 850px;
+        margin: 22px auto;
+        padding: 0;
+        background: #fff;
+        box-shadow: 0 2px 15px #0001;
+    }
+
+    .paper > section {
+        padding: 60px 70px;
+    }
+
+    .paper > section:nth-of-type(1) { background: #eaf4fb; }
+    .paper > section:nth-of-type(2) { background: #fff8e8; }
+    .paper > section:nth-of-type(3) { background: #edf7ee; }
+    .paper > section:nth-of-type(4) { background: #fdf0ed; }
+    .paper > section:nth-of-type(5) { background: #edf3fc; }
+    .paper > section:nth-of-type(6) { background: #f3eef9; }
+    .paper > section:nth-of-type(7) { background: #f8f3e9; }
+
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    h2 {
+        margin: 0 0 24px;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        margin: 22px 0 10px;
+        font-size: 17px;
+        line-height: 1.4;
+    }
+
+    p {
+        margin: 0 0 12px;
+        text-align: justify;
+        text-indent: 1.25cm;
+    }
+
+    .page-break > h2 + p,
+    .page-break > h3 + p {
+        margin-top: 0;
+    }
+
+    .no-indent {
+        text-indent: 0;
+    }
+
+    .cover {
+        display: flex;
+        min-height: 900px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 70px;
+        text-align: center;
+    }
+
+    .cover p {
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .cover-title {
+        margin-top: 55px;
+    }
+
+    .cover-title h1 {
+        margin-bottom: 16px;
+        font-size: 27px;
+        line-height: 1.5;
+    }
+
+    .identity {
+        margin: 24px 0;
+    }
+
+    .cover-divider {
+        width: 55%;
+        border: 0;
+        border-top: 1px solid #17435b;
+    }
+
+    .identity p {
+        margin: 4px;
+        line-height: 1.5;
+    }
+
+    .authors {
+        margin: 4px 0;
+        padding: 0;
+        list-style-position: inside;
+    }
+
+    .authors li {
+        line-height: 1.5;
+    }
+
+    .page-break {
+        page-break-before: always;
+        break-before: page;
+    }
+
+    .toc {
+        padding: 0;
+        list-style: none;
+    }
+
+    .toc li {
+        margin: 7px 0;
+    }
+
+    .small {
+        font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+        .paper {
+            margin: 0;
+        }
+
+        .paper > section {
+            padding: 28px 22px;
+        }
+
+        .cover {
+            min-height: 760px;
+        }
+    }
+
+    @media print {
+        body {
+            background: #fff;
+        }
+
+        .toolbar {
+            display: none;
+        }
+
+        .paper {
+            max-width: none;
+            margin: 0;
+            padding: 0;
+            box-shadow: none;
+        }
+
+        .paper > section {
+            padding: 0;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+    }
+</style>
+</head>
+<body>
+    <main class="paper">
+        <section class="cover" id="cover">
+            <div class="cover-title">
+                <h1>MAKALAH<br>KEBERSIHAN LINGKUNGAN</h1>
+                <p><b>Disusun untuk memenuhi tugas sekolah</b></p>
+            </div>
+
+            <hr class="cover-divider" aria-hidden="true">
+
+            <div class="identity">
+                <p>Disusun oleh:</p>
+                <ol class="authors">
+                    <li>Cecep</li>
+                    <li>Indra</li>
+                    <li>Yopi</li>
+                    <li>Salwa</li>
+                    <li>Siti</li>
+                    <li>Salma</li>
+                </ol>
+                <p>Kelas: 9E</p>
+                <p>Mata Pelajaran: B.Indonesia</p>
+            </div>
+
+            <hr class="cover-divider" aria-hidden="true">
+
+            <div>
+                <p><b>SMPN 2 SOLOKANJERUK</b></p>
+                <p>KABUPATEN BANDUNG</p>
+                <p>27/10/2026</p>
+            </div>
+        </section>
+<section class="page-break"><h2>KATA PENGANTAR</h2>
+<p>Puji syukur ke hadirat Tuhan Yang Maha Esa karena atas rahmat-Nya makalah yang berjudul “Kebersihan Lingkungan” ini dapat disusun. Makalah ini dibuat untuk memenuhi tugas sekolah sekaligus menambah pengetahuan mengenai pentingnya menjaga kebersihan lingkungan dalam kehidupan sehari-hari.</p>
+<p>Lingkungan yang bersih memberikan kenyamanan, mendukung kesehatan, dan membuat kegiatan manusia berjalan lebih baik. Sebaliknya, lingkungan yang kotor dapat menimbulkan bau tidak sedap, menyumbat saluran air, dan menjadi tempat berkembangnya hewan pembawa penyakit. Oleh karena itu, menjaga kebersihan merupakan tanggung jawab bersama.</p>
+<p>Penulis menyadari bahwa makalah ini masih memiliki kekurangan. Kritik dan saran yang membangun sangat diharapkan agar makalah ini dapat diperbaiki. Semoga makalah ini bermanfaat dan mendorong pembaca untuk menerapkan kebiasaan hidup bersih di rumah, sekolah, dan masyarakat.</p>
+<p class="no-indent" style="text-align:right;margin-top:35px">Bandung, <br>Cepep Iman</p></section>
+<section class="page-break"><h2>DAFTAR ISI</h2><ul class="toc">
+<li>KATA PENGANTAR</li><li>DAFTAR ISI</li><li>BAB I PENDAHULUAN</li>
+<li style="padding-left:24px">A. Latar Belakang</li><li style="padding-left:24px">B. Rumusan Masalah</li><li style="padding-left:24px">C. Tujuan Penulisan</li><li style="padding-left:24px">D. Manfaat Penulisan</li>
+<li>BAB II PEMBAHASAN</li><li style="padding-left:24px">A. Pengertian Kebersihan Lingkungan</li><li style="padding-left:24px">B. Jenis-Jenis Lingkungan yang Perlu Dijaga</li><li style="padding-left:24px">C. Manfaat Kebersihan Lingkungan</li><li style="padding-left:24px">D. Dampak Lingkungan yang Kotor</li><li style="padding-left:24px">E. Penyebab Pencemaran dan Kekotoran Lingkungan</li><li style="padding-left:24px">F. Cara Menjaga Kebersihan Lingkungan</li><li style="padding-left:24px">G. Pengelolaan Sampah</li><li style="padding-left:24px">H. Peran Masyarakat</li><li style="padding-left:24px">I. Contoh Kegiatan Kebersihan</li>
+<li>BAB III PENUTUP</li><li style="padding-left:24px">A. Kesimpulan</li><li style="padding-left:24px">B. Saran</li><li>DAFTAR PUSTAKA</li></ul>
+<p class="no-indent small"><i></i></p></section>
+<section class="page-break"><h2>BAB I<br>PENDAHULUAN</h2>
+<h3>A. Latar Belakang</h3>
+<p>Lingkungan adalah segala sesuatu yang berada di sekitar manusia dan memengaruhi kehidupan, seperti udara, air, tanah, tumbuhan, hewan, dan tempat tinggal. Lingkungan yang bersih dan terawat sangat penting karena manusia bergantung pada lingkungan untuk memenuhi kebutuhan sehari-hari. Udara yang baik, air yang bersih, dan tempat tinggal yang sehat mendukung kehidupan yang nyaman.</p>
+<p>Namun, kebersihan lingkungan masih menjadi tantangan di berbagai tempat. Sampah yang dibuang sembarangan, penggunaan barang sekali pakai secara berlebihan, pembakaran sampah, dan saluran air yang dipenuhi sampah dapat merusak lingkungan. Kebiasaan tersebut tidak hanya membuat lingkungan terlihat kotor, tetapi juga dapat menimbulkan masalah kesehatan dan mengganggu keseimbangan alam.</p>
+<p>Masalah kebersihan tidak dapat diselesaikan oleh satu orang saja. Setiap orang perlu memiliki kesadaran untuk menjaga lingkungan, mulai dari tindakan sederhana seperti membuang sampah pada tempatnya, mengurangi penggunaan plastik, membersihkan halaman, dan menggunakan air secara bijak. Jika dilakukan secara konsisten, kebiasaan kecil dapat memberikan dampak positif bagi lingkungan.</p>
+<p>Pelajar juga memiliki peran penting dalam menjaga kebersihan. Kebiasaan hidup bersih yang dipelajari di rumah dan sekolah dapat diterapkan dalam kehidupan masyarakat. Oleh sebab itu, pengetahuan mengenai kebersihan lingkungan perlu dipahami agar setiap orang dapat ikut menjaga lingkungan untuk masa sekarang dan masa depan.</p>
+<h3>B. Rumusan Masalah</h3><p class="no-indent">1. Apa yang dimaksud dengan kebersihan lingkungan?</p><p class="no-indent">2. Apa manfaat menjaga kebersihan lingkungan?</p><p class="no-indent">3. Apa dampak lingkungan yang kotor bagi manusia dan alam?</p><p class="no-indent">4. Apa penyebab lingkungan menjadi kotor?</p><p class="no-indent">5. Bagaimana cara menjaga kebersihan lingkungan secara bersama-sama?</p>
+<h3>C. Tujuan Penulisan</h3><p class="no-indent">1. Menjelaskan pengertian kebersihan lingkungan.</p><p class="no-indent">2. Mengetahui manfaat lingkungan yang bersih.</p><p class="no-indent">3. Menjelaskan dampak buruk lingkungan yang kotor.</p><p class="no-indent">4. Mengetahui penyebab masalah kebersihan lingkungan.</p><p class="no-indent">5. Mendorong pembaca menerapkan perilaku peduli lingkungan.</p>
+<h3>D. Manfaat Penulisan</h3><p>Makalah ini diharapkan dapat menambah pengetahuan pembaca tentang pentingnya menjaga kebersihan. Selain itu, makalah ini dapat menjadi bahan pembelajaran untuk membentuk kebiasaan bertanggung jawab, mengurangi sampah, menjaga kesehatan, dan bekerja sama menciptakan lingkungan yang nyaman.</p></section>
+<section class="page-break"><h2>BAB II<br>PEMBAHASAN</h2>
+<h3>A. Pengertian Kebersihan Lingkungan</h3>
+<p>Kebersihan lingkungan adalah keadaan lingkungan yang terawat, tidak dipenuhi sampah, dan dijaga agar tidak menimbulkan gangguan bagi kesehatan maupun kenyamanan. Kebersihan lingkungan meliputi kebersihan rumah, sekolah, jalan, taman, tempat umum, sumber air, dan kawasan tempat tinggal.</p>
+<p>Menjaga kebersihan bukan hanya membersihkan benda yang terlihat kotor. Hal ini juga mencakup pengelolaan sampah, penggunaan air yang bijak, perawatan saluran air, serta pencegahan pencemaran udara, tanah, dan air. Kebersihan lingkungan perlu dilakukan secara rutin karena lingkungan dapat kembali kotor jika tidak dirawat.</p>
+<h3>B. Jenis-Jenis Lingkungan yang Perlu Dijaga</h3>
+<p><b>1. Lingkungan rumah.</b> Rumah yang bersih memiliki lantai dan halaman yang terawat, tempat sampah yang digunakan dengan benar, serta ventilasi yang membantu pertukaran udara. Kebersihan rumah dapat dimulai dengan merapikan barang, membersihkan debu, dan menjaga kamar mandi tetap bersih.</p>
+<p><b>2. Lingkungan sekolah.</b> Ruang kelas, halaman, toilet, kantin, dan taman perlu dijaga bersama oleh siswa, guru, dan petugas sekolah. Kegiatan piket dan kerja bakti dapat membantu menciptakan suasana belajar yang nyaman.</p>
+<p><b>3. Lingkungan masyarakat.</b> Jalan, taman, selokan, dan fasilitas umum merupakan ruang bersama. Warga dapat menjaga kebersihan dengan tidak membuang sampah sembarangan, mengikuti kerja bakti, serta melaporkan masalah kebersihan kepada pihak terkait.</p>
+<p><b>4. Lingkungan alam.</b> Sungai, pantai, hutan, dan kawasan hijau perlu dijaga dari sampah dan pencemaran. Menjaga alam berarti menghargai makhluk hidup dan sumber daya yang mendukung kehidupan manusia.</p>
+<h3>C. Manfaat Kebersihan Lingkungan</h3>
+<p><b>1. Menjaga kesehatan.</b> Lingkungan yang terawat membantu mengurangi kondisi yang menarik hama dan dapat mengganggu kesehatan. Menjaga kebersihan air dan tempat penyimpanan makanan juga penting untuk mengurangi risiko penyakit.</p>
+<p><b>2. Memberikan kenyamanan.</b> Lingkungan yang rapi, tidak berbau, dan bebas sampah membuat orang lebih nyaman beraktivitas, belajar, beristirahat, dan berinteraksi.</p>
+<p><b>3. Mencegah saluran air tersumbat.</b> Sampah yang dibuang ke selokan dapat menghambat aliran air. Menjaga saluran tetap bersih membantu mengurangi risiko genangan, meskipun banjir juga dipengaruhi faktor lain seperti curah hujan dan kondisi drainase.</p>
+<p><b>4. Menjaga keindahan.</b> Halaman yang bersih, taman yang terawat, dan ruang publik yang bebas sampah membuat lingkungan lebih enak dipandang.</p>
+<p><b>5. Melindungi alam.</b> Pengurangan sampah dan pencegahan pencemaran membantu melindungi tanah, air, tumbuhan, dan hewan.</p>
+<p><b>6. Menumbuhkan tanggung jawab.</b> Kebiasaan menjaga kebersihan melatih disiplin, kepedulian, dan kesediaan untuk ikut menjaga fasilitas bersama.</p>
+<p><b>7. Menghemat sumber daya.</b> Menggunakan kembali barang yang masih layak, mengurangi pemborosan air, dan menghemat energi dapat mengurangi penggunaan sumber daya alam.</p>
+<h3>D. Dampak Lingkungan yang Kotor</h3>
+<p>Lingkungan yang kotor dapat menimbulkan bau tidak sedap, membuat pemandangan tidak nyaman, dan menarik hewan pengganggu. Sampah yang menumpuk dapat menyumbat saluran air. Jika sampah dibakar sembarangan, asapnya dapat mencemari udara dan mengganggu pernapasan. Sampah yang masuk ke sungai atau laut juga dapat membahayakan hewan dan merusak ekosistem.</p>
+<p>Pencemaran air dapat mengurangi kualitas sumber air, sedangkan pencemaran tanah dapat mengganggu kesuburan dan kehidupan organisme di dalamnya. Selain itu, lingkungan yang tidak terawat bisa membuat masyarakat enggan menggunakan taman atau fasilitas umum. Dampak tersebut menunjukkan bahwa kebersihan perlu dijaga melalui tindakan sehari-hari dan pengelolaan lingkungan yang baik.</p>
+<h3>E. Penyebab Pencemaran dan Kekotoran Lingkungan</h3>
+<p><b>1. Membuang sampah sembarangan.</b> Sampah yang dibuang di jalan, sungai, atau lahan kosong dapat menumpuk dan mencemari lingkungan.</p>
+<p><b>2. Penggunaan barang sekali pakai berlebihan.</b> Barang sekali pakai, terutama yang sulit terurai, dapat menambah jumlah sampah jika tidak dikelola dengan baik.</p>
+<p><b>3. Kurangnya fasilitas sampah.</b> Tempat sampah yang tidak tersedia atau jarang diangkut dapat menyulitkan masyarakat menjaga kebersihan.</p>
+<p><b>4. Kurangnya kesadaran.</b> Sebagian orang menganggap kebersihan hanya tugas petugas kebersihan, padahal setiap orang ikut menghasilkan sampah.</p>
+<p><b>5. Pengelolaan limbah yang tidak tepat.</b> Limbah rumah tangga atau kegiatan usaha yang dibuang tanpa pengolahan dapat mencemari air, tanah, dan udara.</p>
+<p><b>6. Kurangnya kerja sama.</b> Program kebersihan akan sulit berhasil jika warga tidak memiliki kesepakatan dan kebiasaan untuk merawat lingkungan bersama.</p>
+<h3>F. Cara Menjaga Kebersihan Lingkungan</h3>
+<p><b>1. Membuang sampah pada tempatnya.</b> Sampah sebaiknya tidak ditinggalkan di jalan, taman, sungai, atau tempat umum. Jika tempat sampah tidak tersedia, simpan sampah sementara dan buang ketika menemukan tempat yang sesuai.</p>
+<p><b>2. Mengurangi penggunaan barang sekali pakai.</b> Gunakan botol minum, tas belanja, atau wadah makan yang dapat dipakai kembali. Pastikan barang tersebut dibersihkan dan digunakan dengan aman.</p>
+<p><b>3. Memilah sampah.</b> Pisahkan sampah sesuai sistem yang tersedia di lingkungan, misalnya sampah organik dan anorganik. Sampah berbahaya seperti baterai bekas perlu ditangani melalui tempat pengumpulan khusus jika tersedia.</p>
+<p><b>4. Melakukan kerja bakti.</b> Warga dapat menyapu jalan, membersihkan taman, dan merapikan fasilitas umum secara berkala. Kegiatan harus dilakukan dengan memperhatikan keselamatan dan tidak menangani limbah berbahaya tanpa petugas terlatih.</p>
+<p><b>5. Menjaga saluran air.</b> Hindari membuang sampah atau minyak ke selokan. Jika saluran tersumbat atau berbahaya untuk dibersihkan, laporkan kepada pihak yang berwenang.</p>
+<p><b>6. Menanam dan merawat tanaman.</b> Tanaman membantu memperindah lingkungan dan memberikan ruang hijau. Pilih tanaman yang sesuai dengan kondisi tempat dan rawat secara teratur.</p>
+<p><b>7. Menghemat air.</b> Gunakan air seperlunya dan perbaiki kebocoran melalui bantuan orang yang mampu. Jangan membuang sampah atau bahan pencemar ke sumber air.</p>
+<p><b>8. Memberikan edukasi.</b> Poster, pengumuman, diskusi kelas, dan kegiatan kampanye dapat membantu meningkatkan kesadaran tentang kebersihan.</p>
+<p><b>9. Menjaga kebersihan setelah beraktivitas.</b> Setelah piknik, berolahraga, atau mengadakan acara, pastikan area yang digunakan kembali bersih dan semua sampah dibawa ke tempat pengelolaan yang sesuai.</p>
+<p><b>10. Menjadi teladan.</b> Tindakan nyata lebih mudah ditiru daripada sekadar nasihat. Setiap orang dapat memulai dari dirinya sendiri dan mengajak orang lain dengan sopan.</p>
+<h3>G. Pengelolaan Sampah</h3>
+<p>Pengelolaan sampah adalah kegiatan mengurangi dan menangani sampah agar tidak mencemari lingkungan. Langkah yang dapat dilakukan dimulai dengan mengurangi barang yang tidak diperlukan, menggunakan kembali barang yang masih layak, dan mendaur ulang bahan yang dapat diproses. Urutan ini sering dikenal sebagai prinsip 3R, yaitu <i>Reduce, Reuse, Recycle</i>.</p>
+<p><b>Reduce</b> berarti mengurangi sampah sejak awal, misalnya membawa tas belanja sendiri. <b>Reuse</b> berarti menggunakan kembali barang yang masih aman dan layak, misalnya memakai wadah isi ulang. <b>Recycle</b> berarti mengolah bahan tertentu menjadi bahan atau barang baru melalui proses yang sesuai.</p>
+<p>Sampah organik seperti sisa sayuran dan daun dapat diolah menjadi kompos jika tersedia cara dan tempat yang tepat. Kertas, logam, dan beberapa jenis plastik dapat didaur ulang sesuai fasilitas setempat. Tidak semua sampah bisa didaur ulang, sehingga mengurangi sampah sejak awal tetap menjadi langkah penting.</p>
+<h3>H. Peran Masyarakat</h3>
+<p><b>1. Peran individu.</b> Setiap orang dapat menjaga kebersihan diri dan lingkungan, mengurangi sampah, serta menggunakan air dan energi secara bijak.</p>
+<p><b>2. Peran keluarga.</b> Keluarga dapat membiasakan anak merapikan rumah, memilah sampah, dan menjaga kebersihan halaman sejak dini.</p>
+<p><b>3. Peran sekolah.</b> Sekolah dapat mengajarkan pendidikan lingkungan, menyediakan fasilitas sampah, mengadakan piket, dan memberi contoh perilaku bersih.</p>
+<p><b>4. Peran masyarakat dan pemerintah.</b> Warga dapat melakukan kerja bakti dan menyepakati aturan kebersihan. Pemerintah dan pengelola lingkungan berperan menyediakan layanan pengangkutan sampah, fasilitas umum, serta edukasi kepada masyarakat.</p>
+<h3>I. Contoh Kegiatan Kebersihan</h3>
+<p>Contoh kegiatan yang mudah dilakukan adalah program “Jumat Bersih”. Warga sekolah atau masyarakat dapat menyisihkan waktu secara berkala untuk membersihkan area masing-masing. Sebelum kegiatan dimulai, tentukan lokasi, pembagian tugas, alat yang aman digunakan, dan cara membuang sampah setelah terkumpul.</p>
+<p>Kegiatan lain adalah membuat poster kebersihan, membawa wadah minum sendiri, menyiapkan tempat sampah terpilah, merawat taman, serta membuat jadwal pemeriksaan lingkungan. Hasil kegiatan dapat dievaluasi bersama untuk mengetahui perubahan yang terjadi dan menentukan langkah perbaikan berikutnya.</p>
+<p>Program kebersihan sebaiknya dilakukan secara berkelanjutan. Lingkungan yang bersih tidak tercipta hanya melalui satu kali kerja bakti, tetapi melalui kebiasaan sederhana yang dilakukan setiap hari oleh banyak orang.</p></section>
+<section class="page-break"><h2>BAB III<br>PENUTUP</h2>
+<h3>A. Kesimpulan</h3>
+<p>Kebersihan lingkungan merupakan keadaan lingkungan yang terawat, bebas dari sampah yang berserakan, dan dijaga agar tidak menimbulkan gangguan bagi kesehatan maupun kenyamanan. Lingkungan yang bersih memberikan banyak manfaat, seperti mendukung kesehatan, meningkatkan kenyamanan, menjaga keindahan, melindungi alam, serta menumbuhkan rasa tanggung jawab.</p>
+<p>Lingkungan yang kotor dapat disebabkan oleh kebiasaan membuang sampah sembarangan, penggunaan barang sekali pakai secara berlebihan, kurangnya fasilitas, dan pengelolaan limbah yang tidak tepat. Dampaknya dapat b
